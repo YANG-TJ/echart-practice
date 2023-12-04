@@ -15,6 +15,7 @@ export default defineConfig(() => {
     build: {
       broliSize: false,
       chunkSizeWarningLimit: 4000
-    }
+    },
+    base: '/echart-practice/'
   }
 })
