@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  body {
+    @apply dark:bg-dark-bg font-mono;
+  }
+  button {
+    @apply dark:bg-dark-btn dark:hover:bg-black dark:hover:text-1st-color text-1st-color border-1st-color hover:bg-1st-color hover:text-white border-[1px] text-sm px-2.5 py-3 rounded-lg font-bold;
+  }
+  header {
+    @apply dark:bg-dark-btn bg-slate-50;
+    div {
+      @apply bg-slate-200 dark:bg-dark-btn dark:border dark:border-1st-color;
+      img {
+        @apply bg-slate-50 dark:bg-slate-500 shadow-sm;
+      }
+    }
+  }
+}
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  @apply antialiased;
+}
+
+h2 {
+  @apply text-1st-color font-bold text-3xl w-full;
+}
+
+#app {
+  @apply mx-auto;
+}
+.chart {
+  @apply min-h-[60vh] sm:mx-0 mx-1;
+}
+.loading {
+  @apply animate-pulse rounded bg-slate-100 dark:bg-dark-btn;
+}
