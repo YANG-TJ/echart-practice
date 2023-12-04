@@ -1,5 +1,6 @@
 # Vue 3 + TypeScript + Vite
 
+- [demo](https://yang-tj.github.io/echart-practice/)
 1.練習內容
 
 - 練習封裝chart (lineChart, barChart), 皆為 canvas render
